@@ -7,16 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/grid.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <div class="grid wide container">
+    <div class="grid wide">
         <div class="row">
-            <h1 class="">column 1</h1>
-            <h1 class="">column 2</h1>
-            <h1 class="">column 3</h1>
-            <h1 class="">column 3</h1>
-
+            <div class="col l-3">
+                <div class="item">Item 1</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">Item 2</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">Item 3</div>
+            </div>
+            <div class="col l-3">
+                <div class="item">Item 4</div>
+            </div>
         </div>
     </div>
 </body>
@@ -29,14 +37,16 @@
         margin: 0;
     }
 
-    .container {
-        background-color: orange;
+    .container {  
         text-align: center;
-        font-size: 40px;
-        color: #fff;
     }
 
     h1 {
         padding: 100px 0;
+    }
+
+
+    .courses-item {
+        background-color: orange;        
     }
 </style>
